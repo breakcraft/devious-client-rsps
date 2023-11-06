@@ -9,6 +9,14 @@ You can also support this project through Patreon:
 
 https://www.patreon.com/DeviousClient
 
+# RSPS
+Clone this project using Intellij or w.e you're using, then on top right click on `Current File` then `Edit Configurations` press the plus icon and select gradle,
+inside Gradle Task text field insert:
+`run --args="--developer-mode --debug --jav_config "https://raw.githubusercontent.com/AlterRSPS/Resources/main/docs/resources/jav_config.ws"" -x checkStyleMain -x checkStyleTest -x test` press apply and run.
+Find Private Server plugin inside plugin menu, open settings --> Insert ur modulus key and done.
+
+
+
 # Launcher
 
 The client launcher can be downloaded here:
