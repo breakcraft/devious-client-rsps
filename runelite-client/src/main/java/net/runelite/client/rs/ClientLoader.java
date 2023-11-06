@@ -332,7 +332,8 @@ public class ClientLoader implements Supplier<Applet>
 			{
 				String codebase = config.getCodeBase();
 				String initialJar = config.getInitialJar();
-				url = HttpUrl.get(codebase + initialJar);
+				//url = HttpUrl.get(codebase + initialJar);
+				url = HttpUrl.parse("https://github.com/runetech/osrs-gamepacks/raw/master/gamepacks/osrs-215.jar");
 			}
 
 			for (int attempt = 0; ; attempt++)
