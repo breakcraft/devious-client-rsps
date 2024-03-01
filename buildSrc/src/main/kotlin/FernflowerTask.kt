@@ -7,7 +7,7 @@ import org.gradle.api.tasks.OutputDirectory
 import org.gradle.api.tasks.PathSensitive
 import org.gradle.api.tasks.PathSensitivity
 import org.gradle.api.tasks.TaskAction
-import org.jetbrains.java.decompiler.main.decompiler.ConsoleDecompiler
+//import org.jetbrains.java.decompiler.main.decompiler.ConsoleDecompiler
 
 @CacheableTask
 open class FernflowerTask: DefaultTask() {
@@ -40,6 +40,6 @@ open class FernflowerTask: DefaultTask() {
             args.addAll(extraArgs!!)
         }
 
-        ConsoleDecompiler.main(args.toTypedArray())
+        //ConsoleDecompiler.main(args.toTypedArray())
     }
 }
