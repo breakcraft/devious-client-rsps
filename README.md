@@ -1,13 +1,8 @@
-###
-This is a fork of Unethicalite that I'm looking to actively maintain since I think this would be a nice learning experience for me.
+### Dodian
+This is the Develop Client for the Dodian OSRS base.
+Join our discord: https://discord.com/invite/CVUcp6ST
 
-Come join my discord if you're looking to share knowledge and learn together!
-
-https://discord.gg/5sh52G36GF
-
-You can also support this project through Patreon:
-
-https://www.patreon.com/DeviousClient
+***This is no live server! It contains still tons of bugs! Player saving can be resetted!***
 
 # Run Local
 Clone this project using Intellij or w.e you're using, then on top right click on `Current File` then `Edit Configurations` press the plus icon and select gradle,
