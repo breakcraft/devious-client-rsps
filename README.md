@@ -9,11 +9,23 @@ You can also support this project through Patreon:
 
 https://www.patreon.com/DeviousClient
 
-# RSPS
+# Run Local
 Clone this project using Intellij or w.e you're using, then on top right click on `Current File` then `Edit Configurations` press the plus icon and select gradle,
 inside Gradle Task text field insert:
-`run --args="--developer-mode --debug --jav_config "https://raw.githubusercontent.com/AlterRSPS/Resources/main/docs/resources/jav_config.ws"" -x checkStyleMain -x checkStyleTest -x test` press apply and run.
+`run --args="--developer-mode --debug --jav_config "https://raw.githubusercontent.com/Eikenb00m/dodian-develop-resources/main/jav_config-beta.ws"" -x checkStyleMain -x checkStyleTest -x test` press apply and run.
 Find Private Server plugin inside plugin menu, open settings --> Insert ur modulus key and done.
+Create your own key!
+
+
+# Run Beta
+Clone this project using Intellij or w.e you're using, then on top right click on `Current File` then `Edit Configurations` press the plus icon and select gradle,
+inside Gradle Task text field insert:
+`run --args="--developer-mode --debug --jav_config "https://raw.githubusercontent.com/Eikenb00m/dodian-develop-resources/main/jav_config-beta.ws"" -x checkStyleMain -x checkStyleTest -x test` press apply and run.
+Find Private Server plugin inside plugin menu, open settings --> Insert ur modulus key and done.
+URL: 
+`http://89.35.91.151/`
+Key:
+`b12d6264d90fdda125c442130b76bad87eb42f0b463c29bf6fef3f5ff0cc831e1fd5e93d17a3ba48b6d8a104ae3f770d937c3b136fb0f97ad5706d7b366b26ac0a5486c6cefb3db5d0da74355d480f1ac2e276d5a1b73d6602934f8e2f359c4dbb9924de258ea1eb940d764f3a898c02db78a9d96f5d9915b1ade3fb93bbe9a5`
 
 
 
